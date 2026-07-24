@@ -76,4 +76,5 @@ export const finalCtaContent = {
   subtitleRegular: "Garantizá el control sanitario de cada sector. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
+  image: "/img/supermercados-hero.png",
 };

@@ -93,4 +93,5 @@ export const finalCtaContent = {
   subtitleRegular:
     "Cada día sin certificar es una oportunidad comercial perdida. Asegura el futuro de tu empresa hoy mismo con nuestro diagnóstico.",
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
+  image: "/img/certificaciones-hero.png",
 };

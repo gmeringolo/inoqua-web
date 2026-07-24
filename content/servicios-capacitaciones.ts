@@ -90,4 +90,5 @@ export const finalCtaContent = {
   subtitleRegular: "La inocuidad alimentaria es la base de tu operación diaria. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
+  image: "/img/capacitaciones-hero.png",
 };

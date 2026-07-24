@@ -55,4 +55,5 @@ export const finalCtaContent = {
   subtitleRegular: "Analizamos las necesidades específicas de tu empresa. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
+  image: "/img/planesTrabajo-hero.png",
 };

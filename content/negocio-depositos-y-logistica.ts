@@ -77,4 +77,5 @@ export const finalCtaContent = {
   subtitleRegular: "Mantené tu depósito habilitado bajo nuestro respaldo. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
+  image: "/img/deposito-hero.png",
 };

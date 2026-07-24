@@ -100,4 +100,5 @@ export const finalCtaContent = {
   subtitleRegular: "Protegé tu negocio todos los días de multas y clausuras. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
+  image: "/img/representacionTecnica-hero.png",
 };

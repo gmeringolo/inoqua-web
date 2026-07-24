@@ -77,4 +77,5 @@ export const finalCtaContent = {
   subtitleRegular: "Asegurá el cumplimiento colectivo bajo nuestro respaldo. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
+  image: "/img/espaciosColectivos-hero.png",
 };

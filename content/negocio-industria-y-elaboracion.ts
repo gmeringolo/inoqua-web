@@ -77,4 +77,5 @@ export const finalCtaContent = {
   subtitleRegular: "Asegurá tus estándares con nuestra representación técnica. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
+  image: "/img/industria-hero.png",
 };

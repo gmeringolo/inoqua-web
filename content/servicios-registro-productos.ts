@@ -112,4 +112,5 @@ export const finalCtaContent = {
   subtitleRegular:
     "Evaluamos tu caso y te indicamos exactamente qué registros necesitás para comercializarlo de forma legal.",
   button: { label: "Solicitar asesoramiento", href: "/contacto", variant: "solid" as const },
+  image: "/img/registroProductos-hero.png",
 };

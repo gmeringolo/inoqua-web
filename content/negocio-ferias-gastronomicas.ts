@@ -95,4 +95,5 @@ export const finalCtaContent = {
   subtitleRegular:
     "Planificá correctamente desde el inicio y evitá problemas cuando el evento ya esté en marcha.",
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
+  image: "/img/ferias-hero.png",
 };
