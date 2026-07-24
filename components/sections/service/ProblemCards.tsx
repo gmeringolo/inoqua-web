@@ -1,0 +1,38 @@
+import Reveal from "@/components/ui/Reveal";
+import Icon, { IconName } from "@/components/ui/Icon";
+
+type ProblemCard = { icon: IconName; text: string };
+
+type ProblemCardsProps = {
+  title: string;
+  subtitle: string;
+  cards: ProblemCard[];
+};
+
+/**
+ * Sección "problema" al inicio de una landing de servicio: pregunta grande +
+ * grilla de tarjetas angostas (ícono + frase corta). No existe en Home.
+ */
+export default function ProblemCards({ title, subtitle, cards }: ProblemCardsProps) {
+  return (
+    <section className="mx-auto max-w-content px-4 pt-6 pb-5 sm:px-10 lg:px-20">
+      <Reveal>
+        <h2 className="mx-auto max-w-xl text-subtitulo-35 text-azul text-center">{title}</h2>
+        <p className="mt-10 text-subtitulo-xxl text-texto">{subtitle}</p>
+      </Reveal>
+
+      <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+        {cards.map((card, i) => (
+          <Reveal key={card.text} delay={i * 80}>
+            <div className="flex h-[190px] flex-col items-center gap-4 rounded-card bg-azul p-5 pt-8 text-center transition-transform duration-300 hover:-translate-y-1">
+              <div className="flex h-9 w-9 shrink-0 items-center justify-center">
+                <Icon name={card.icon} className="h-9 w-9 text-naranja" />
+              </div>
+              <p className="text-[15px] mt-3 text-white">{card.text}</p>
+            </div>
+          </Reveal>
+        ))}
+      </div>
+    </section>
+  );
+}

@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #282828;
+  background: #ffffff;
+}
+
+/* Utilidad para las animaciones de aparición al hacer scroll (ver components/ui/Reveal.tsx) */
+.reveal-hidden {
+  opacity: 0;
+  transform: translateY(24px);
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.text-card-title {
+  font-size: 15px;
+  font-weight: 600;
+  }

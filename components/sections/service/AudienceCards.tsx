@@ -1,0 +1,33 @@
+import Reveal from "@/components/ui/Reveal";
+import Icon, { IconName } from "@/components/ui/Icon";
+
+type AudienceCard = { icon: IconName; text: string };
+
+type AudienceCardsProps = {
+  title: string;
+  subtitle: string;
+  cards: AudienceCard[];
+};
+
+/** Sección "Para quién es este servicio" — tarjetas cuadradas oscuras con ícono + frase. */
+export default function AudienceCards({ title, subtitle, cards }: AudienceCardsProps) {
+  return (
+    <section className="mx-auto max-w-content px-6 py-20 sm:px-10 lg:px-20">
+      <Reveal className="text-center">
+        <h2 className="text-titulo-xxl text-azul">{title}</h2>
+        <p className="mt-3 text-subtitulo-xxl text-texto">{subtitle}</p>
+      </Reveal>
+
+      <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {cards.map((card, i) => (
+          <Reveal key={card.text} delay={i * 100}>
+            <div className="flex h-[180px] flex-col items-center justify-center gap-4 rounded-card bg-azul p-6 text-center transition-transform duration-300 hover:-translate-y-1">
+              <Icon name={card.icon} className="h-10 w-10 text-naranja" />
+              <p className="text-parrafo-20 text-white">{card.text}</p>
+            </div>
+          </Reveal>
+        ))}
+      </div>
+    </section>
+  );
+}
