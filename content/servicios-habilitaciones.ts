@@ -108,5 +108,5 @@ export const finalCtaContent = {
   subtitleRegular: "Un error puede costarte tiempo, dinero o incluso tu negocio. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
-  image: "/img/abilitaciones-solucion.png",
+  image: "/img/servicios-cta1.png",
 };

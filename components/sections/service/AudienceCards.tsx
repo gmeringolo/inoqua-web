@@ -21,9 +21,11 @@ export default function AudienceCards({ title, subtitle, cards }: AudienceCardsP
       <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {cards.map((card, i) => (
           <Reveal key={card.text} delay={i * 100}>
-            <div className="flex h-[180px] flex-col items-center justify-center gap-4 rounded-card bg-azul p-6 text-center transition-transform duration-300 hover:-translate-y-1">
-              <Icon name={card.icon} className="h-10 w-10 text-naranja" />
-              <p className="text-parrafo-20 text-white">{card.text}</p>
+            <div className="flex h-[190px] flex-col items-center gap-4 rounded-card bg-azul p-5 pt-8 text-center transition-transform duration-300 hover:-translate-y-1">
+              <div className="flex h-9 w-9 shrink-0 items-center justify-center">
+                <Icon name={card.icon} className="h-9 w-9 text-naranja" />
+              </div>
+              <p className="text-[15px] mt-3 text-white">{card.text}</p>
             </div>
           </Reveal>
         ))}

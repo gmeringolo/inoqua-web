@@ -39,7 +39,7 @@ export const featureSplitSection = {
   ],
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "left" as const,
-  image: "/img/representacionTecnica-hero.png",
+  image: "/img/representacionTecnica-solucion2.png",
 };
 
 export const differentiatorSection = {
@@ -64,7 +64,7 @@ export const differentiatorSection = {
     {
       icon: "handshake" as const,
       title: "Minimizá riesgos operativos",
-      text: "Prevení observaciones innecesarias implementando prácticas seguras y eficientes en tus procesos diarios.",
+      text: "Prevení observaciones innecesarias implementando prácticas seguras y eficientes en tus procesos.",
     },
   ],
   quote: "Invertir en cumplimiento hoy te ahorra miles de dólares en sanciones mañana",
@@ -100,5 +100,5 @@ export const finalCtaContent = {
   subtitleRegular: "Protegé tu negocio todos los días de multas y clausuras. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
-  image: "/img/representacionTecnica-hero.png",
+  image: "/img/servicios-cta3.png",
 };
