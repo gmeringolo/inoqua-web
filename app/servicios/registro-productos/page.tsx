@@ -1,13 +1,15 @@
 import ServiceHero from "@/components/sections/service/ServiceHero";
-import ProblemCards from "@/components/sections/service/ProblemCards";
+import CategoryCards from "@/components/sections/service/CategoryCards";
+import ProblemCardsGrid from "@/components/sections/service/ProblemCardsGrid";
 import AlertBanner from "@/components/sections/service/AlertBanner";
 import FeatureSplit from "@/components/sections/service/FeatureSplit";
 import ProcessSteps from "@/components/sections/service/ProcessSteps";
-import DifferentiatorCards from "@/components/sections/service/DifferentiatorCards";
+import DifferentiatorCardsGrid from "@/components/sections/service/DifferentiatorCardsGrid";
 import BusinessTypeGrid from "@/components/sections/service/BusinessTypeGrid";
 import FinalCTA from "@/components/sections/FinalCTA";
 import {
   heroContent,
+  categoriesSection,
   problemSection,
   alertBannerText,
   featureSplitSection,
@@ -48,11 +50,12 @@ export default function RegistroProductosPage() {
         ]}
       />
       <ServiceHero {...heroContent} />
-      <ProblemCards {...problemSection} />
+      <CategoryCards {...categoriesSection} />
+      <ProblemCardsGrid {...problemSection} />
       <AlertBanner text={alertBannerText} />
       <FeatureSplit {...featureSplitSection} />
       <ProcessSteps {...processStepsSection} />
-      <DifferentiatorCards {...differentiatorSection} />
+      <DifferentiatorCardsGrid {...differentiatorSection} />
       <BusinessTypeGrid {...businessTypesGrid} />
       <FinalCTA {...finalCtaContent} />
     </main>

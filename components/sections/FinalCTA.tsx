@@ -38,9 +38,9 @@ export default function FinalCTA({
 
       <Reveal className="relative mx-auto flex w-full max-w-4xl flex-col items-center rounded-final bg-white/85 px-10 py-14 text-center shadow-lg backdrop-blur-sm">
         <h2 className="mx-auto max-w-2xl text-titulo-xxl text-[#282828]">{title}</h2>
-        <p className="mt-6 text-[18px] leading-[32px] text-black">
+        <p className="mt-6 lg:max-w-xl text-[18px] leading-[32px] text-black">
           {subtitleRegular}</p>
-           <p className="text-[18px] leading-[32px] text-black font-semibold">{subtitleBold}</p>
+        <p className="text-[18px] leading-[32px] text-black font-semibold">{subtitleBold}</p>
         
         <div className="mt-8 flex flex-nowrap justify-center gap-3">
           <Button label={button.label} href={button.href} variant={button.variant ?? "solid"} />

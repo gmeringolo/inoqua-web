@@ -20,11 +20,11 @@ function StepCard({ step, isLast }: { step: Step; isLast: boolean }) {
   return (
     <div className="relative flex flex-col items-center text-center">
       <div className="flex h-[273px] w-full flex-col items-center rounded-card p-6">
-        <div className="flex h-[63px] w-[63px] items-center justify-center rounded-full bg-naranja text-[28px] font-extrabold text-white">
+        <div className="flex h-[63px] w-[63px] shrink-0 items-center justify-center rounded-full bg-naranja text-[28px] font-extrabold text-white">
           {step.number}
         </div>
         <h3 className="mt-5 min-h-13 text-card-titulo text-white">{step.title}</h3>
-        <p className="mt-3 text-card-txt text-white/90">{step.text}</p>
+        <p className="mt-3 min-h-13 text-card-txt text-white/90">{step.text}</p>
       </div>
 
       {!isLast && (

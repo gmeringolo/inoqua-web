@@ -75,6 +75,7 @@ import {
   FerrisWheel,
   Wheat,
   Hamburger,
+  Milk,
   type LucideIcon,
 } from "lucide-react";
 
@@ -190,6 +191,7 @@ const icons = {
   ferrisWheel: FerrisWheel,
   wheat: Wheat,
   hamburger: Hamburger,
+  milk: Milk,
 } satisfies Record<string, LucideIcon | ((props: { className?: string }) => React.JSX.Element)>;
 
 export type IconName = keyof typeof icons;

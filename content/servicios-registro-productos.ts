@@ -8,6 +8,21 @@ export const heroContent = {
   image: "/img/registroProductos-hero.png",
 };
 
+export const categoriesSection = {
+  cards: [
+    {
+      icon: "fork" as const,
+      title: "Consumo humano (RUNAEV)",
+      text: "Habilitaciones bromatológicas y registros de productos.",
+    },
+    {
+      icon: "paw" as const,
+      title: "Alimentación Animal (MGAP)",
+      text: "Registro de alimento para animales.",
+    },
+  ],
+};
+
 export const problemSection = {
   title: "¿Querés vender un producto y no sabés qué requisitos cumplir?",
   subtitle: "Muchos fabricantes, importadores y emprendedores se encuentran con:",
@@ -15,8 +30,8 @@ export const problemSection = {
     { icon: "package" as const, text: "Requisitos técnicos complejos" },
     { icon: "clipboard" as const, text: "Documentación incompleta" },
     { icon: "eye" as const, text: "Observaciones durante el trámite" },
-    { icon: "clock" as const, text: "Demoras en la aprobación" },
-    { icon: "rule" as const, text: "Dificultades para interpretar la normativa" },
+    { icon: "clock" as const, text: "Demoras excesivas en la aprobación" },
+    { icon: "rule" as const, text: "Dificultades con la normativa" },
     { icon: "money" as const, text: "Retrasos en la salida al mercado" },
   ],
 };
@@ -32,7 +47,6 @@ export const featureSplitSection = {
     "Evaluación regulatoria",
     "Revisión técnica de etiquetas",
     "Verificación de requisitos documentales",
-    "Preparación del expediente",
     "Gestión ante organismos competentes",
     "Seguimiento del trámite",
     "Respuesta a observaciones",
@@ -40,7 +54,7 @@ export const featureSplitSection = {
   ],
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "right" as const,
-  image: "/img/registroProductos-hero.png",
+  image: "/img/registroProductos-solucion.png",
 };
 
 export const processStepsSection = {
@@ -99,11 +113,12 @@ export const businessTypesGrid = {
   chips: [
     { icon: "fork" as const, label: "Industrias alimentarias" },
     { icon: "package" as const, label: "Importadores de alimentos" },
-    { icon: "package" as const, label: "Distribuidores" },
-    { icon: "fork" as const, label: "Veterinarias con marcas propias" },
-    { icon: "money" as const, label: "Emprendedores alimentarios" },
+    { icon: "truck" as const, label: "Distribuidores" },
+    { icon: "milk" as const, label: "Elaboradores artesanales" },
+    { icon: "paw" as const, label: "Veterinarias con marcas propias" },
+    { icon: "lightbulb" as const, label: "Emprendedores alimentarios" },
     { icon: "building" as const, label: "Empresas agroindustriales" },
-    { icon: "package" as const, label: "Empresas de alimentos para mascotas" },
+    { icon: "bone" as const, label: "Alimentos para mascotas" },
   ],
 };
 
@@ -112,5 +127,5 @@ export const finalCtaContent = {
   subtitleRegular:
     "Evaluamos tu caso y te indicamos exactamente qué registros necesitás para comercializarlo de forma legal.",
   button: { label: "Solicitar asesoramiento", href: "/contacto", variant: "solid" as const },
-  image: "/img/registroProductos-hero.png",
+  image: "/img/servicios-cta4.png",
 };
