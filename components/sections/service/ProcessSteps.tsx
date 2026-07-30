@@ -8,6 +8,7 @@ type ProcessStepsProps = {
   subtitle: string;
   steps: Step[];
   closingText?: string;
+  subTitleMaxWidth?: string;
 };
 
 const LG_COLS_BY_STEP_COUNT: Record<number, string> = {
@@ -53,14 +54,16 @@ function StepCard({ step, isLast }: { step: Step; isLast: boolean }) {
  * Franja de pasos numerados sobre fondo azul oscuro con flechas conectoras.
  * Soporta cualquier cantidad de pasos (a diferencia de HowWeWork de Home, que es fijo a 4).
  */
-export default function ProcessSteps({ eyebrow, title, subtitle, steps, closingText }: ProcessStepsProps) {
+export default function ProcessSteps({ eyebrow, title, subtitle, steps,subTitleMaxWidth, closingText }: ProcessStepsProps) {
   return (
     <section className="bg-azul pt-15 pb-20">
       <div className="mx-auto max-w-content px-6 sm:px-10 lg:px-20">
         <Reveal className="text-center">
           <span className="text-[13px] font-normal tracking-[1.2px] text-naranja">{eyebrow}</span>
           <h2 className="mt-2 text-titulo-xxl text-white">{title}</h2>
-          <p className="mt-3 text-subtitulo-xxl text-white">{subtitle}</p>
+          <p className="mt-3 text-subtitulo-xxl text-white" style={{ maxWidth: subTitleMaxWidth }}>
+            {subtitle}
+          </p>
         </Reveal>
 
         <div

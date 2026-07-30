@@ -77,6 +77,7 @@ export const processStepsSection = {
   title: "Nuestro método para capacitar a tu empresa",
   subtitle:
     "Un proceso ágil y planificado para transformar la teoría en hábitos prácticos, asegurando el cumplimiento legal de tu equipo.",
+  subTitleMaxWidth: "43rem",
   steps: [
     { number: 1, title: "Diagnóstico", text: "Evaluamos el nivel actual de tu equipo." },
     { number: 2, title: "Plan a medida", text: "Diseñamos contenidos según tu rubro." },
@@ -91,4 +92,5 @@ export const finalCtaContent = {
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
   image: "/img/servicios-cta3.png",
+  titleMaxWidth: "37rem",
 };

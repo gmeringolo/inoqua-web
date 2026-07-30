@@ -16,13 +16,14 @@ const serviciosLinks = [
 ];
 
 const negocioLinks = [
-  { label: "Restaurantes y gastronomía", href: "/tipo-de-negocio/locales-gastronomicos" },
-  { label: "Kioscos y almacenes", href: "/tipo-de-negocio/locales-sin-elaboracion" },
-  { label: "Supermercados", href: "/tipo-de-negocio/supermercados" },
+  { label: "Locales sin elaboración", href: "/tipo-de-negocio/locales-sin-elaboracion" },
+  { label: "Locales gastronómicos", href: "/tipo-de-negocio/locales-gastronomicos" },
+  { label: "Supermercados y autoservicios", href: "/tipo-de-negocio/supermercados-autoservicios" },
   { label: "Industria y elaboración", href: "/tipo-de-negocio/industria-y-elaboracion" },
   { label: "Depósitos y logística", href: "/tipo-de-negocio/depositos-y-logistica" },
+  { label: "Espacios gastronómicos colectivos", href: "/tipo-de-negocio/espacios-gastronomicos-colectivos" },
   { label: "Ferias gastronómicas", href: "/tipo-de-negocio/ferias-gastronomicas" },
-  { label: "Espacios colectivos", href: "/tipo-de-negocio/espacios-colectivos" },
+  
 ];
 
 type LinkItem = { label: string; href: string };

@@ -42,7 +42,7 @@ export const alertBannerText =
 export const featureSplitSection = {
   title: "Nosotros nos encargamos del proceso",
   subtitle:
-    "En InoQua gestionamos registros de productos alimentarios para consumo humano y alimentación animal, acompañándote desde la evaluación inicial hasta la aprobación final.",
+    "En InoQua gestionamos registros de productos alimentarios para consumo humano y alimentación animal.",
   items: [
     "Evaluación regulatoria",
     "Revisión técnica de etiquetas",
@@ -52,7 +52,6 @@ export const featureSplitSection = {
     "Respuesta a observaciones",
     "Acompañamiento hasta la aprobación",
   ],
-  button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "right" as const,
   image: "/img/registroProductos-solucion.png",
 };
