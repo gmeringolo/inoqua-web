@@ -38,7 +38,7 @@ export default function AboutIntro({ title, paragraphs, imagePosition = "right",
           delay={150}
           className={`relative mx-auto h-[340px] w-full max-w-[492px] overflow-hidden rounded-panel ${imageOrderClass}`}
         >
-          <Image src="/img/home1.jpg" alt={title} fill sizes="(max-width: 1024px) 90vw, 492px" className="object-cover" />
+          <Image src="/img/certificaciones-solucion.png" alt={title} fill sizes="(max-width: 1024px) 90vw, 492px" className="object-cover" />
         </Reveal>
       </div>
     </section>

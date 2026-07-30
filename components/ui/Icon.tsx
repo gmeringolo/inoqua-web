@@ -9,6 +9,7 @@ import {
   GraduationCap,
   ShoppingCart,
   ShieldCheck,
+  ClipboardCheck,
   TriangleAlert,
   Clock,
   CheckCircle2,
@@ -110,6 +111,7 @@ function InstagramGlyph({ className }: { className?: string }) {
 const icons = {
   // --- ya en uso en el contenido del sitio (no tocar los nombres) ---
   clipboard: ClipboardList,
+  clipboardCheck: ClipboardCheck,
   eye: Eye,
   rule: Ruler,
   clock: Clock,

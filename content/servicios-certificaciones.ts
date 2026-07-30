@@ -10,13 +10,21 @@ export const heroContent = {
 
 export const problemSection = {
   title: "¿Por qué las empresas buscan certificarse?",
-  subtitle: "Puntos críticos comunes: documentación desactualizada, procesos sin estandarizar y auditorías inciertas.",
   cards: [
     { icon: "building" as const, text: "Acceder a nuevos mercados" },
     { icon: "handshake" as const, text: "Cumplir requisitos de clientes" },
-    { icon: "package" as const, text: "Participar en licitaciones" },
-    { icon: "money" as const, text: "Mejorar procesos internos" },
+    { icon: "clipboardCheck" as const, text: "Participar en licitaciones" },
+    { icon: "trendingUp" as const, text: "Mejorar procesos internos" },
   ],
+  criticalPoints: {
+    title: "Puntos Críticos Comunes:",
+    items: [
+      "Documentación inexistente o desactualizada",
+      "Procesos sin estandarizar",
+      "Falta de tiempo para implementar",
+      "Auditorías que generan incertidumbre",
+    ],
+  },
 };
 
 export const strategicSupportSection = {
@@ -74,7 +82,7 @@ export const servicesIncludedSection = {
     "Acompañamiento durante auditorías externas",
   ],
   imagePosition: "right" as const,
-  image: "/img/certificaciones-hero.png",
+  image: "/img/certificaciones-servicios.png",
 };
 
 export const businessTypesGrid = {
@@ -93,5 +101,5 @@ export const finalCtaContent = {
   subtitleRegular:
     "Cada día sin certificar es una oportunidad comercial perdida. Asegura el futuro de tu empresa hoy mismo con nuestro diagnóstico.",
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
-  image: "/img/certificaciones-hero.png",
+  image: "/img/servicios-cta5.png",
 };

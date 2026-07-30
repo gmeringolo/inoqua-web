@@ -18,6 +18,7 @@ import {
 } from "@/content/servicios-capacitaciones";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { ServiceJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
+import DifferentiatorCardsGrid from "@/components/sections/service/DifferentiatorCardsGrid";
 
 const path = "/servicios/capacitaciones";
 const pageTitle = "Capacitaciones en Inocuidad Alimentaria";
@@ -51,7 +52,7 @@ export default function CapacitacionesPage() {
       <ProblemCards {...problemSection} />
       <AlertBanner text={alertBannerText} />
       <FeatureSplit {...featureSplitSection} />
-      <DifferentiatorCards {...differentiatorSection} />
+      <DifferentiatorCardsGrid {...differentiatorSection} />
       <AudienceCards {...audienceSection} />
       <ProcessSteps {...processStepsSection} />
       <FinalCTA {...finalCtaContent} />

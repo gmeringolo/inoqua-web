@@ -11,7 +11,7 @@ export const heroContent = {
 export const problemSection = {
   title: "Capacitá a tu equipo y evitá errores costosos",
   subtitle:
-    "Diseñamos capacitaciones en inocuidad alimentaria adaptadas a tu empresa, garantizando el cumplimiento normativo y la mejora real del negocio.",
+    "Diseñamos capacitaciones en inocuidad alimentaria adaptadas a tu empresa.",
   cards: [
     { icon: "warning" as const, text: "Manipulación incorrecta de alimentos" },
     { icon: "close" as const, text: "Contaminación cruzada" },
@@ -35,7 +35,7 @@ export const featureSplitSection = {
   ],
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "left" as const,
-  image: "/img/capacitaciones-hero.png",
+  image: "/img/capacitaciones-solucion.png",
 };
 
 export const differentiatorSection = {
@@ -50,7 +50,7 @@ export const differentiatorSection = {
     {
       icon: "eye" as const,
       title: "Orientado a inspecciones reales",
-      text: "Preparamos al personal para responder correctamente ante la autoridad.",
+      text: "Preparamos al personal para responder correctamente.",
     },
     {
       icon: "warning" as const,
@@ -90,5 +90,5 @@ export const finalCtaContent = {
   subtitleRegular: "La inocuidad alimentaria es la base de tu operación diaria. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
-  image: "/img/capacitaciones-hero.png",
+  image: "/img/servicios-cta3.png",
 };

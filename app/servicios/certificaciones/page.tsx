@@ -1,5 +1,5 @@
 import ServiceHero from "@/components/sections/service/ServiceHero";
-import ProblemCards from "@/components/sections/service/ProblemCards";
+import ProblemCriticalPoints from "@/components/sections/service/ProblemCriticalPoints";
 import AboutIntro from "@/components/sections/about/AboutIntro";
 import CertificationCards from "@/components/sections/service/CertificationCards";
 import FeatureSplit from "@/components/sections/service/FeatureSplit";
@@ -47,7 +47,7 @@ export default function CertificacionesPage() {
         ]}
       />
       <ServiceHero {...heroContent} />
-      <ProblemCards {...problemSection} />
+      <ProblemCriticalPoints {...problemSection} />
       <AboutIntro {...strategicSupportSection} button={strategicSupportButton} />
       <CertificationCards {...certificationCardsSection} />
       <FeatureSplit {...servicesIncludedSection} />
