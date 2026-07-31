@@ -9,7 +9,6 @@ import {
   heroContent,
   problemSection,
   featureSplitSection,
-  alertBannerText,
   differentiatorSection,
   processStepsSection,
   finalCtaContent,
@@ -47,7 +46,6 @@ export default function IndustriaYElaboracionPage() {
       <ServiceHero {...heroContent} />
       <ProblemCards {...problemSection} />
       <FeatureSplit {...featureSplitSection} />
-      <AlertBanner text={alertBannerText} />
       <DifferentiatorCards {...differentiatorSection} />
       <ProcessSteps {...processStepsSection} />
       <FinalCTA {...finalCtaContent} />

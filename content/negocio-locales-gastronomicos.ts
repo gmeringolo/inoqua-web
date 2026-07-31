@@ -30,7 +30,7 @@ export const featureSplitSection = {
   ],
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "left" as const,
-  image: "/img/localesGastronomicos-hero.png",
+  image: "/img/localesGastronomicos-solucion.png",
 };
 
 export const differentiatorSection = {
@@ -97,5 +97,5 @@ export const finalCtaContent = {
   subtitleRegular: "Asegurá tu aprobación oficial con nuestro respaldo. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
-  image: "/img/localesGastronomicos-hero.png",
+  image: "/img/servicios-cta5.png",
 };

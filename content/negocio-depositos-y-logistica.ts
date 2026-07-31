@@ -30,11 +30,8 @@ export const featureSplitSection = {
   ],
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "left" as const,
-  image: "/img/deposito-hero.png",
+  image: "/img/depositosLogistica-solucion.png",
 };
-
-export const alertBannerText =
-  "Gestionamos flujos logísticos de alta complejidad asegurando eficiencia a gran escala";
 
 export const differentiatorSection = {
   eyebrow: "NUESTRO DIFERENCIAL",
@@ -77,5 +74,5 @@ export const finalCtaContent = {
   subtitleRegular: "Mantené tu depósito habilitado bajo nuestro respaldo. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
-  image: "/img/deposito-hero.png",
+  image: "/img/negocio-cta5.png",
 };

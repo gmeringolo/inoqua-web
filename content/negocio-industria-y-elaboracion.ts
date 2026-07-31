@@ -30,11 +30,8 @@ export const featureSplitSection = {
   ],
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "left" as const,
-  image: "/img/industria-hero.png",
+  image: "/img/industria-solucion.png",
 };
-
-export const alertBannerText =
-  "Optimizamos tu flujo logístico transformando la normativa en una ventaja competitiva";
 
 export const differentiatorSection = {
   eyebrow: "NUESTRO DIFERENCIAL",
@@ -77,5 +74,5 @@ export const finalCtaContent = {
   subtitleRegular: "Asegurá tus estándares con nuestra representación técnica. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
-  image: "/img/industria-hero.png",
+  image: "/img/servicios-cta3.png",
 };

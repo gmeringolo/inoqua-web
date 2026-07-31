@@ -4,6 +4,7 @@ export const aboutHeroContent = {
   title: "Somos un equipo de profesionales enfocados en la inocuidad alimentaria",
   subtitleRegular:
     "Acompañamos a empresas en sus procesos de habilitación, cumplimiento normativo y gestión técnica con un enfoque práctico.",
+  image: "/img/nosotros-hero.png",  
   button: { label: "Solicitar asesoramiento", href: "/contacto" as const },
   secondaryButton: { label: "Nuestros servicios", href: "/#servicios" as const, variant: "dark" as const },
 };
@@ -75,4 +76,5 @@ export const aboutFinalCtaContent = {
   subtitleRegular: "Conocemos la normativa y entendemos la realidad de tu rubro. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
+  image: "/img/nosotros-cta.png",  
 };

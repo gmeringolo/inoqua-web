@@ -9,7 +9,6 @@ import {
   heroContent,
   problemSection,
   featureSplitSection,
-  alertBannerText,
   differentiatorSection,
   processStepsSection,
   finalCtaContent,
@@ -17,7 +16,7 @@ import {
 import { buildMetadata } from "@/lib/seo/metadata";
 import { ServiceJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
-const path = "/tipo-de-negocio/espacios-colectivos";
+const path = "/tipo-de-negocio/espacios-gastronomicos-colectivos";
 const pageTitle = "Habilitación de Plazas de Comidas y Espacios Gastronómicos Colectivos";
 const pageDescription =
   "Habilitación técnica de plazas de comidas y espacios donde conviven varios operadores gastronómicos. Coordinación integral y protocolos sanitarios estandarizados.";
@@ -47,7 +46,6 @@ export default function EspaciosColectivosPage() {
       <ServiceHero {...heroContent} />
       <ProblemCards {...problemSection} />
       <FeatureSplit {...featureSplitSection} />
-      <AlertBanner text={alertBannerText} />
       <DifferentiatorCards {...differentiatorSection} />
       <ProcessSteps {...processStepsSection} />
       <FinalCTA {...finalCtaContent} />

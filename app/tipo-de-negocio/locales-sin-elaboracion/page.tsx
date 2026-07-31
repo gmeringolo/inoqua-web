@@ -10,7 +10,6 @@ import {
   heroContent,
   problemSection,
   featureSplitSection,
-  alertBannerText,
   differentiatorSection,
   businessTypesGrid,
   processStepsSection,
@@ -49,7 +48,6 @@ export default function LocalesSinElaboracionPage() {
       <ServiceHero {...heroContent} />
       <ProblemCards {...problemSection} />
       <FeatureSplit {...featureSplitSection} />
-      <AlertBanner text={alertBannerText} />
       <DifferentiatorCards {...differentiatorSection} />
       <BusinessTypeGrid {...businessTypesGrid} />
       <ProcessSteps {...processStepsSection} />

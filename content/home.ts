@@ -79,10 +79,10 @@ export const businessTypesSection = {
   cards: [
     { label: "Restaurantes y gastronomía", href: "/tipo-de-negocio/locales-gastronomicos", image: "/img/home-negocio-restaurante.png" },
     { label: "Kioscos y almacenes", href: "/tipo-de-negocio/locales-sin-elaboracion", image: "/img/home-negocio-kiosco.png" },
-    { label: "Supermercados", href: "/tipo-de-negocio/supermercados", image: "/img/supermercados-hero.png" },
+    { label: "Supermercados", href: "/tipo-de-negocio/supermercados-autoservicios", image: "/img/supermercados-hero.png" },
     { label: "Industrias alimentarias", href: "/tipo-de-negocio/industria-y-elaboracion", image: "/img/home-negocio-industria.png" },
     { label: "Depósitos y logística", href: "/tipo-de-negocio/depositos-y-logistica", image: "/img/deposito-hero.png" },
-    { label: "Espacios colectivos", href: "/tipo-de-negocio/espacios-colectivos", image: "/img/espaciosColectivos-hero.png" },
+    { label: "Espacios colectivos", href: "/tipo-de-negocio/espacios-gastronomicos-colectivos", image: "/img/espaciosColectivos-hero.png" },
   ],
 };
 

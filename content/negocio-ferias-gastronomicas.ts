@@ -33,7 +33,7 @@ export const featureSplitSection = {
   ],
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "left" as const,
-  image: "/img/ferias-hero.png",
+  image: "/img/ferias-solucion.png",
 };
 
 export const differentiatorSection = {
@@ -95,5 +95,5 @@ export const finalCtaContent = {
   subtitleRegular:
     "Planificá correctamente desde el inicio y evitá problemas cuando el evento ya esté en marcha.",
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
-  image: "/img/ferias-hero.png",
+  image: "/img/negocio-cta4.png",
 };

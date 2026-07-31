@@ -22,11 +22,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     { path: "/tipo-de-negocio/locales-gastronomicos", priority: 0.85, changeFrequency: "monthly" },
     { path: "/tipo-de-negocio/locales-sin-elaboracion", priority: 0.85, changeFrequency: "monthly" },
-    { path: "/tipo-de-negocio/supermercados", priority: 0.85, changeFrequency: "monthly" },
+    { path: "/tipo-de-negocio/supermercados-autoservicios", priority: 0.85, changeFrequency: "monthly" },
     { path: "/tipo-de-negocio/industria-y-elaboracion", priority: 0.85, changeFrequency: "monthly" },
     { path: "/tipo-de-negocio/depositos-y-logistica", priority: 0.85, changeFrequency: "monthly" },
     { path: "/tipo-de-negocio/ferias-gastronomicas", priority: 0.85, changeFrequency: "monthly" },
-    { path: "/tipo-de-negocio/espacios-colectivos", priority: 0.85, changeFrequency: "monthly" },
+    { path: "/tipo-de-negocio/espacios-gastronomicos-colectivos", priority: 0.85, changeFrequency: "monthly" },
   ];
 
   return routes.map((route) => ({

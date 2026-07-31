@@ -30,11 +30,8 @@ export const featureSplitSection = {
   ],
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "left" as const,
-  image: "/img/localesSinElaboracion-hero.png",
+  image: "/img/localesSinElaboracion-solucion.png",
 };
-
-export const alertBannerText =
-  "Evitá multas y gastos innecesarios abriendo tu comercio bajo la normativa vigente";
 
 export const differentiatorSection = {
   eyebrow: "NUESTRO DIFERENCIAL",
@@ -87,5 +84,5 @@ export const finalCtaContent = {
   subtitleRegular: "Asegurá tu aprobación oficial con nuestro respaldo. ",
   subtitleBold: "Evaluamos tu caso sin compromiso.",
   button: { label: "Evaluar mi caso", href: "/contacto" },
-  image: "/img/localesSinElaboracion-hero.png",
+  image: "/img/negocio-cta2.png",
 };

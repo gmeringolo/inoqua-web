@@ -30,10 +30,8 @@ export const featureSplitSection = {
   ],
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "left" as const,
-  image: "/img/supermercados-hero.png",
+  image: "/img/supermercados-solucion.png",
 };
-
-export const alertBannerText = "Entendemos que un supermercado no es solo un local comercial";
 
 export const differentiatorSection = {
   eyebrow: "NUESTRO DIFERENCIAL",

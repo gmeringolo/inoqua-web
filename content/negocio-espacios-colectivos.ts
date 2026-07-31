@@ -30,11 +30,8 @@ export const featureSplitSection = {
   ],
   button: { label: "Solicitar asesoramiento", href: "/contacto" },
   imagePosition: "left" as const,
-  image: "/img/espaciosColectivos-hero.png",
+  image: "/img/espaciosGastronomicos-solucion.png",
 };
-
-export const alertBannerText =
-  "Coordinamos el cumplimiento sanitario de todos los operadores bajo un mismo espacio compartido";
 
 export const differentiatorSection = {
   eyebrow: "NUESTRO DIFERENCIAL",

@@ -9,15 +9,14 @@ import {
   heroContent,
   problemSection,
   featureSplitSection,
-  alertBannerText,
   differentiatorSection,
   processStepsSection,
   finalCtaContent,
-} from "@/content/negocio-supermercados";
+} from "@/content/negocio-supermercados-autoservicios";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { ServiceJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
-const path = "/tipo-de-negocio/supermercados";
+const path = "/tipo-de-negocio/supermercados-autoservicios";
 const pageTitle = "Asesoría Bromatológica para Supermercados y Autoservicios";
 const pageDescription =
   "Asesoría bromatológica integral para supermercados y autoservicios en Uruguay: control sanitario por sector, cadena de frío y habilitación de gran superficie.";
@@ -47,7 +46,6 @@ export default function SupermercadosPage() {
       <ServiceHero {...heroContent} />
       <ProblemCards {...problemSection} />
       <FeatureSplit {...featureSplitSection} />
-      <AlertBanner text={alertBannerText} />
       <DifferentiatorCards {...differentiatorSection} />
       <ProcessSteps {...processStepsSection} />
       <FinalCTA {...finalCtaContent} />
