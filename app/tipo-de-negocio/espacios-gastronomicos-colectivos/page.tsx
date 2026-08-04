@@ -1,8 +1,7 @@
 import ServiceHero from "@/components/sections/service/ServiceHero";
 import ProblemCards from "@/components/sections/service/ProblemCards";
 import FeatureSplit from "@/components/sections/service/FeatureSplit";
-import AlertBanner from "@/components/sections/service/AlertBanner";
-import DifferentiatorCards from "@/components/sections/service/DifferentiatorCards";
+import DifferentiatorCardsGrid from "@/components/sections/service/DifferentiatorCardsGrid";
 import ProcessSteps from "@/components/sections/service/ProcessSteps";
 import FinalCTA from "@/components/sections/FinalCTA";
 import {
@@ -46,7 +45,7 @@ export default function EspaciosColectivosPage() {
       <ServiceHero {...heroContent} />
       <ProblemCards {...problemSection} />
       <FeatureSplit {...featureSplitSection} />
-      <DifferentiatorCards {...differentiatorSection} />
+      <DifferentiatorCardsGrid {...differentiatorSection} />
       <ProcessSteps {...processStepsSection} />
       <FinalCTA {...finalCtaContent} />
     </main>

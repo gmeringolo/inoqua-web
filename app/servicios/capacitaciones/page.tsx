@@ -2,7 +2,6 @@ import ServiceHero from "@/components/sections/service/ServiceHero";
 import ProblemCards from "@/components/sections/service/ProblemCards";
 import AlertBanner from "@/components/sections/service/AlertBanner";
 import FeatureSplit from "@/components/sections/service/FeatureSplit";
-import DifferentiatorCards from "@/components/sections/service/DifferentiatorCards";
 import AudienceCards from "@/components/sections/service/AudienceCards";
 import ProcessSteps from "@/components/sections/service/ProcessSteps";
 import FinalCTA from "@/components/sections/FinalCTA";

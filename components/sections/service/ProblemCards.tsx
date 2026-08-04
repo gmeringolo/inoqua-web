@@ -14,6 +14,11 @@ type ProblemCardsProps = {
  * grilla de tarjetas angostas (ícono + frase corta). No existe en Home.
  */
 export default function ProblemCards({ title, subtitle, cards }: ProblemCardsProps) {
+  const isSixCards = cards.length === 6;
+  const gridColsClass =
+    cards.length === 4 || isSixCards
+      ? "sm:grid-cols-2 lg:grid-cols-4"
+      : "sm:grid-cols-3 lg:grid-cols-5";
   return (
     <section className="mx-auto max-w-content px-4 pt-6 pb-5 sm:px-10 lg:px-20">
       <Reveal>
@@ -21,17 +26,20 @@ export default function ProblemCards({ title, subtitle, cards }: ProblemCardsPro
         <p className="mt-10 text-subtitulo-xxl text-texto">{subtitle}</p>
       </Reveal>
 
-      <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-        {cards.map((card, i) => (
-          <Reveal key={card.text} delay={i * 80}>
-            <div className="flex h-[190px] flex-col items-center gap-4 rounded-card bg-azul p-5 pt-8 text-center transition-transform duration-300 hover:-translate-y-1">
-              <div className="flex h-9 w-9 shrink-0 items-center justify-center">
-                <Icon name={card.icon} className="h-9 w-9 text-naranja" />
+      <div className={`mt-4 grid grid-cols-2 gap-4 ${gridColsClass}`}>
+        {cards.map((card, i) => {
+          const centerLastRow = isSixCards && i === 4 ? "lg:col-start-2" : isSixCards && i === 5 ? "lg:col-start-3" : "";
+          return (
+            <Reveal key={card.text} delay={i * 80} className={centerLastRow}>
+              <div className="flex h-47.5 flex-col items-center gap-4 rounded-card bg-azul p-5 pt-8 text-center transition-transform duration-300 hover:-translate-y-1">
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center">
+                  <Icon name={card.icon} className="h-9 w-9 text-naranja" />
+                </div>
+                <p className="text-[15px] mt-3 text-white">{card.text}</p>
               </div>
-              <p className="text-[15px] mt-3 text-white">{card.text}</p>
-            </div>
-          </Reveal>
-        ))}
+            </Reveal>
+          );
+        })}
       </div>
     </section>
   );

@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1fr_auto]">
           {/* Columna 1: logo + descripción + redes */}
           <div>
-            <div className="relative h-18 w-48">
+            <div className="relative h-18 w-42">
               <Image
                 src="/img/Logo-blanco.png"
                 alt="InoQua Consultoría Alimentaria"
@@ -121,8 +121,8 @@ export default function Footer() {
             © {new Date().getFullYear()} InoQua Consultoría Alimentaria. Todos los derechos reservados.
           </p>
           <p className="text-white/40">
-            Diseño y desarrollo {" "}
-            <a href="https://giameringolo.com" target="_blank" rel="noopener noreferrer" className="underline decoration-white/20 underline-offset-2 transition-colors hover:text-white/70 hover:decoration-white/40">giameringolo.com</a>
+            Desarrollado por {" "}
+            <a href="https://giameringolo.com" target="_blank" rel="noopener noreferrer" className="underline decoration-white/20 underline-offset-2 transition-colors hover:text-white/70 hover:decoration-white/40">Gianella Meringolo</a>
           </p>
         </div>
       </div>
