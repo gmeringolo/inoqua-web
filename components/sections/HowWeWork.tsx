@@ -46,7 +46,7 @@ function StepCard({ step, isLast }: { step: Step; isLast: boolean }) {
 /** Sección "Cómo trabajamos" — pasos numerados sobre fondo azul oscuro, con flechas conectoras. */
 export default function HowWeWork({ eyebrow, title, subtitle, closingText, steps }: HowWeWorkProps) {
   return (
-    <section className="bg-azul pt-15 pb-20">
+    <section className="bg-azul py-20">
       <div className="mx-auto max-w-content px-6 sm:px-10 lg:px-20">
         <Reveal className="text-center">
           <span className="text-[13px] font-normal tracking-[1.2px] text-naranja">{eyebrow}</span>

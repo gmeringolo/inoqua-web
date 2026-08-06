@@ -77,6 +77,11 @@ import {
   Wheat,
   Hamburger,
   Milk,
+  Apple,
+  Pizza,
+  Store,
+  HandHeart,
+  House,
   type LucideIcon,
 } from "lucide-react";
 
@@ -186,14 +191,19 @@ const icons = {
   x: X,
   shoppingBasket: ShoppingBasket,
   croissant: Croissant,
-  ham:Ham,
-  balloon:Balloon,
-  banana:Banana,
-  flame:Flame,
+  ham: Ham,
+  balloon: Balloon,
+  banana: Banana,
+  flame: Flame,
   ferrisWheel: FerrisWheel,
   wheat: Wheat,
   hamburger: Hamburger,
   milk: Milk,
+  apple: Apple,
+  pizza: Pizza,
+  store: Store,
+  handHeart: HandHeart,
+  house: House,
 } satisfies Record<string, LucideIcon | ((props: { className?: string }) => React.JSX.Element)>;
 
 export type IconName = keyof typeof icons;

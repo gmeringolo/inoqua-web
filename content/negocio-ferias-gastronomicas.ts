@@ -67,13 +67,13 @@ export const differentiatorSection = {
 export const businessTypesGrid = {
   title: "¿Para quién es este servicio?",
   chips: [
-    { icon: "building" as const, label: "Ferias gastronómicas" },
-    { icon: "fork" as const, label: "Festivales gastronómicos" },
-    { icon: "building" as const, label: "Eventos temporales" },
-    { icon: "package" as const, label: "Ferias regionales y municipales" },
+    { icon: "hamburger" as const, label: "Ferias gastronómicas" },
+    { icon: "store" as const, label: "Festivales gastronómicos" },
+    { icon: "house" as const, label: "Eventos temporales" },
+    { icon: "shoppingBag" as const, label: "Ferias regionales y municipales" },
     { icon: "building" as const, label: "Eventos corporativos" },
-    { icon: "handshake" as const, label: "Ferias de emprendedores" },
-    { icon: "fork" as const, label: "Mercados temporales" },
+    { icon: "handHeart" as const, label: "Ferias de emprendedores" },
+    { icon: "chefHat" as const, label: "Mercados temporales" },
   ],
 };
 

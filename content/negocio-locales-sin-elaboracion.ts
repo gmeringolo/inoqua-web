@@ -60,9 +60,9 @@ export const businessTypesGrid = {
   title: "Para quién es este servicio",
   chips: [
     { icon: "building" as const, label: "Kioscos" },
-    { icon: "package" as const, label: "Almacenes" },
-    { icon: "package" as const, label: "Productos envasados" },
-    { icon: "fork" as const, label: "Fruterías y verdulerías" },
+    { icon: "shoppingBasket" as const, label: "Almacenes" },
+    { icon: "milk" as const, label: "Productos envasados" },
+    { icon: "apple" as const, label: "Fruterías y verdulerías" },
   ],
 };
 
