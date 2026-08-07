@@ -32,8 +32,8 @@ export default function CertificationCards({ title, subtitle, cards }: Certifica
         {cards.map((card, i) => (
           <Reveal key={card.code} delay={i * 100}>
             <div className="flex h-full flex-col items-center rounded-panel bg-azul/[0.06] p-8 text-center">
-              <Icon name={card.icon} className="h-12 w-12 text-azul" />
-              <h3 className="mt-3 text-[27px] font-bold text-texto">{card.code}</h3>
+              <Icon name={card.icon} className="h-10 w-10 text-azul" />
+              <h3 className="mt-3 text-[20px] font-bold text-texto">{card.code}</h3>
               <span className="mt-3 flex min-h-10 items-center justify-center rounded-full bg-naranja px-4 py-1 text-center text-[12px] font-medium leading-4 text-azul">
                 {card.tag}
               </span>

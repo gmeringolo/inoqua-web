@@ -9,7 +9,9 @@ export const heroContent = {
 };
 
 export const pricingSection = {
-  title: "Soluciones técnicas que se adaptan al tamaño de tu empresa",
+  title: "Soluciones que se adaptan a tu empresa",
+  subtitle:
+    "Elegí el nivel de respaldo técnico que tu negocio necesita.",
   plans: [
     {
       name: "Plan Básico",

@@ -11,6 +11,7 @@ type PricingPlan = {
 
 type PricingCardsProps = {
   title: string;
+  subtitle: string;
   plans: PricingPlan[];
 };
 
@@ -24,11 +25,12 @@ function TickIcon({ light = false }: { light?: boolean }) {
 }
 
 /** Grilla de planes/precios con tarjeta destacada (RECOMENDADO). Exclusivo de Planes de trabajo. */
-export default function PricingCards({ title, plans }: PricingCardsProps) {
+export default function PricingCards({ title, subtitle, plans }: PricingCardsProps) {
   return (
     <section className="mx-auto max-w-content px-6 py-16 sm:px-10 lg:px-20">
       <Reveal className="text-center">
-        <h2 className="mx-auto max-w-4xl text-titulo-xxl text-azul">{title}</h2>
+        <h2 className="mt-2 text-titulo-xxl text-azul">{title}</h2>
+        <p className="mt-3 text-subtitulo-xxl text-texto mx-auto max-w-xl">{subtitle}</p>
       </Reveal>
 
       <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -44,8 +46,12 @@ export default function PricingCards({ title, plans }: PricingCardsProps) {
                   RECOMENDADO
                 </span>
               )}
-              <h3 className={`text-[24px] font-semibold ${plan.highlighted ? "text-white" : "text-azul"}`}>{plan.name}</h3>
-              <p className={`mt-2 text-[16px] leading-[22px] ${plan.highlighted ? "text-white/90" : "text-texto"}`}>
+              <h3 className={`text-[20px] font-semibold ${plan.highlighted ? "text-white" : "text-azul"}`}>{plan.name}</h3>
+              <p
+                className={`mt-2 text-[15px] leading-5.5 ${
+                  plan.highlighted ? "text-white/90" : "min-h-16.5 text-texto"
+                }`}
+              >
                 {plan.subtitle}
               </p>
 
@@ -61,7 +67,7 @@ export default function PricingCards({ title, plans }: PricingCardsProps) {
               </ul>
 
               {plan.note && (
-                <p className={`mt-4 border-t pt-3 text-[15px] leading-[22px] ${plan.highlighted ? "border-white/20 text-white/90" : "border-azul/10 text-texto"}`}>
+                <p className={`mt-4 min-h-19.5 border-t pt-3 text-[15px] leading-5.5 ${plan.highlighted ? "border-white/20 text-white/90" : "border-azul/10 text-texto"}`}>
                   {plan.note}
                 </p>
               )}
