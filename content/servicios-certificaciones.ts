@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const heroContent = {
   breadcrumb: "Servicios — Certificaciones y sistemas de gestión",
   title: "Preparamos tu empresa para certificaciones nacionales e internacionales",
@@ -23,6 +25,7 @@ export const problemSection = {
       "Procesos sin estandarizar",
       "Falta de tiempo para implementar",
       "Auditorías que generan incertidumbre",
+      "Resistencia interna al cambio de procesos",
     ],
   },
 };
@@ -30,7 +33,8 @@ export const problemSection = {
 export const strategicSupportSection = {
   title: "Acompañamiento Estratégico",
   paragraphs: [
-    "En InoQua acompañamos a las organizaciones en el diseño, implementación y mejora de sistemas de gestión alineados con estándares internacionales. No solo somos consultores, somos tu respaldo técnico permanente.",
+    "En InoQua acompañamos a las organizaciones en el diseño, implementación y mejora de sistemas de gestión alineados con estándares internacionales. Trabajamos con cada equipo para que la certificación no sea un trámite aislado, sino parte natural de cómo opera la empresa.",
+    "No solo somos consultores, somos tu respaldo técnico permanente.",
   ],
   imagePosition: "left" as const,
 };
@@ -40,7 +44,8 @@ export const strategicSupportButton = { label: "Solicitar asesoramiento", href: 
 export const certificationsIntro = "En InoQua te acompañamos en la implementación de sistemas de gestión alineados con estándares internacionales.";
 
 export const certificationCardsSection = {
-  eyebrow: "Impulsamos la Excelencia Normativa",
+  title: "Impulsamos la Excelencia Normativa",
+  subtitle: "En InoQua te acompañamos en la implementación de sistemas de gestión alineados con estándares internacionales.",
   cards: [
     {
       icon: "shield" as const,
@@ -88,9 +93,9 @@ export const servicesIncludedSection = {
 export const businessTypesGrid = {
   title: "¿Para quién es este servicio?",
   chips: [
-    { icon: "fork" as const, label: "Industrias alimentarias" },
-    { icon: "headset" as const, label: "Empresas de servicios" },
-    { icon: "building" as const, label: "Empresas tecnológicas" },
+    { icon: "cookingPot" as const, label: "Industrias alimentarias" },
+    { icon: "briefcase" as const, label: "Empresas de servicios" },
+    { icon: "laptop" as const, label: "Empresas tecnológicas" },
     { icon: "package" as const, label: "Importadores y exportadores" },
     { icon: "building" as const, label: "Organizaciones de alto nivel" },
   ],

@@ -42,7 +42,7 @@ export default function ContactForm({ title, subtitle, submitLabel }: ContactFor
   };
 
   return (
-    <section className="mx-auto max-w-content px-6 py-20 sm:px-10 lg:px-20">
+    <section className="mx-auto max-w-content px-6 py-17 sm:px-10 lg:px-20">
       <Reveal className="mx-auto max-w-3xl text-center">
         <h2 className="text-titulo-xxl text-azul">{title}</h2>
         <p className="mt-3 text-subtitulo-xxl text-texto">{subtitle}</p>

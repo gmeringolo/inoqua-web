@@ -56,7 +56,7 @@ function StepCard({ step, isLast }: { step: Step; isLast: boolean }) {
  */
 export default function ProcessSteps({ eyebrow, title, subtitle, steps,subTitleMaxWidth, closingText }: ProcessStepsProps) {
   return (
-    <section className="bg-azul py-20">
+    <section className="bg-azul py-17">
       <div className="mx-auto max-w-content px-6 sm:px-10 lg:px-20">
         <Reveal className="text-center">
           <span className="text-[13px] font-normal tracking-[1.2px] text-naranja">{eyebrow}</span>

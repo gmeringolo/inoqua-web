@@ -48,7 +48,13 @@ export default function CertificacionesPage() {
       />
       <ServiceHero {...heroContent} />
       <ProblemCriticalPoints {...problemSection} />
-      <AboutIntro {...strategicSupportSection} button={strategicSupportButton} />
+      <AboutIntro
+        {...strategicSupportSection}
+        button={strategicSupportButton}
+        spacingClassName="pt-7 pb-15"
+        imageFullWidth
+        gapClassName="gap-5"
+      />
       <CertificationCards {...certificationCardsSection} />
       <FeatureSplit {...servicesIncludedSection} />
       <BusinessTypeGrid {...businessTypesGrid} />

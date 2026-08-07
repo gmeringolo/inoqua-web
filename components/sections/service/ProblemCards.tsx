@@ -7,13 +7,20 @@ type ProblemCardsProps = {
   title: string;
   subtitle: string;
   cards: ProblemCard[];
+  /** Excepción puntual para permitir títulos más largos en una sola línea. */
+  titleMaxWidthClassName?: string;
 };
 
 /**
  * Sección "problema" al inicio de una landing de servicio: pregunta grande +
  * grilla de tarjetas angostas (ícono + frase corta). No existe en Home.
  */
-export default function ProblemCards({ title, subtitle, cards }: ProblemCardsProps) {
+export default function ProblemCards({
+  title,
+  subtitle,
+  cards,
+  titleMaxWidthClassName = "max-w-xl",
+}: ProblemCardsProps) {
   const isSixCards = cards.length === 6;
   const gridColsClass =
     cards.length === 4 || isSixCards
@@ -22,7 +29,7 @@ export default function ProblemCards({ title, subtitle, cards }: ProblemCardsPro
   return (
     <section className="mx-auto max-w-content px-4 pt-6 pb-5 sm:px-10 lg:px-20">
       <Reveal>
-        <h2 className="mx-auto max-w-xl text-subtitulo-35 text-azul text-center">{title}</h2>
+        <h2 className={`mx-auto ${titleMaxWidthClassName} text-subtitulo-35 text-azul text-center`}>{title}</h2>
         <p className="mt-10 text-subtitulo-xxl text-texto">{subtitle}</p>
       </Reveal>
 

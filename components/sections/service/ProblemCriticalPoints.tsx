@@ -17,7 +17,7 @@ type ProblemCriticalPointsProps = {
  */
 export default function ProblemCriticalPoints({ title, cards, criticalPoints }: ProblemCriticalPointsProps) {
   return (
-    <section className="mx-auto max-w-content px-4 pt-6 pb-5 sm:px-10 lg:px-20">
+    <section className="mx-auto max-w-content px-6 pt-6 pb-5 sm:px-10 lg:px-20">
       <Reveal>
         <h2 className="mx-auto max-w-xl text-subtitulo-35 text-azul text-center">{title}</h2>
       </Reveal>
@@ -36,12 +36,12 @@ export default function ProblemCriticalPoints({ title, cards, criticalPoints }: 
 
         <Reveal delay={320}>
           <div className="h-full rounded-panel border-2 border-naranja bg-white p-6 sm:p-8">
-            <h3 className="text-card-titulo text-azul">{criticalPoints.title}</h3>
+            <h3 className="text-card-titulo lg:ml-10 text-azul">{criticalPoints.title}</h3>
             <ul className="mt-4 space-y-3">
               {criticalPoints.items.map((item) => (
-                <li key={item} className="flex items-start gap-3">
+                <li key={item} className="flex items-start gap-3 lg:ml-10">
                   <Icon name="warning" className="mt-0.5 h-5 w-5 shrink-0 text-naranja" />
-                  <span className="text-card-txt text-texto">{item}</span>
+                  <span className="text-card-txt mt-1 text-texto">{item}</span>
                 </li>
               ))}
             </ul>

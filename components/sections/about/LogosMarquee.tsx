@@ -20,7 +20,7 @@ export default function LogosMarquee({ title, subtitle, logos }: LogosMarqueePro
   const loopLogos = [...logos, ...logos];
 
   return (
-    <section className="mx-auto max-w-content px-6 py-20 sm:px-10 lg:px-20">
+    <section className="mx-auto max-w-content px-6 py-17 sm:px-10 lg:px-20">
       <Reveal className="text-center">
         <h2 className="text-titulo-xxl text-azul">{title}</h2>
         <p className="mx-auto mt-3 max-w-2xl text-subtitulo-xxl text-texto">{subtitle}</p>

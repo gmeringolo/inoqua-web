@@ -48,7 +48,7 @@ export default function CapacitacionesPage() {
         ]}
       />
       <ServiceHero {...heroContent} />
-      <ProblemCards {...problemSection} />
+      <ProblemCards {...problemSection} titleMaxWidthClassName="max-w-2xl" />
       <AlertBanner text={alertBannerText} />
       <FeatureSplit {...featureSplitSection} />
       <DifferentiatorCardsGrid {...differentiatorSection} />

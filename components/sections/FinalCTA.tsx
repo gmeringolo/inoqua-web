@@ -33,7 +33,7 @@ export default function FinalCTA({
   titleMaxWidth = "42rem",
 }: FinalCTAProps) {
   return (
-    <section className="relative flex min-h-[420px] items-center justify-center overflow-hidden px-6 py-20 sm:px-10 lg:px-20">
+    <section className="relative flex min-h-[420px] items-center justify-center overflow-hidden px-6 py-17 sm:px-10 lg:px-20">
       <Parallax className="absolute inset-x-0 -inset-y-[20%]">
         <Image src={image} alt="" fill className="object-cover" />
       </Parallax>
