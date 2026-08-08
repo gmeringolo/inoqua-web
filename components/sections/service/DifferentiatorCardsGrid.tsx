@@ -26,12 +26,12 @@ export default function DifferentiatorCardsGrid({ eyebrow, title, cards, quote }
         <div className="mt-12 grid grid-cols-1 gap-5 lg:grid-cols-3">
           {cards.map((card, i) => (
             <Reveal key={card.title} delay={i * 100}>
-              <div className="flex h-[130px] lg:h-[175px] xl:h-[160px] items-start gap-5 rounded-panel border-2 border-azul/10 bg-white p-6 transition-transform duration-300 hover:-translate-y-1">
+              <div className="flex h-[130px] min-[1024px]:h-[190px] min-[1170px]:h-full min-[1170px]:min-h-40 min-[1203px]:min-h-30 items-start gap-5 rounded-panel border-2 border-azul/10 bg-white p-6 transition-transform duration-300 hover:-translate-y-1">
                 <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-azul/10 text-azul">
                   <Icon name={card.icon} className="h-7 w-7" />
                 </div>
                 <div>
-                  <h3 className="min-h-13 text-card-titulo lg:text-[15px] text-azul">{card.title}</h3>
+                  <h3 className="min-h-13 min-[1170px]:min-h-5 text-card-titulo lg:text-[15px] text-azul">{card.title}</h3>
                   <p className="mt-2 text-card-txt text-texto">{card.text}</p>
                 </div>
               </div>

@@ -54,7 +54,7 @@ export default function AboutIntro({
           delay={150}
           className={`relative h-[340px] overflow-hidden rounded-panel ${imageWidthClass} ${imageOrderClass}`}
         >
-          <Image src="/img/certificaciones-solucion.png" alt={title} fill sizes="(max-width: 1024px) 90vw, 492px" className="object-cover" />
+          <Image src="/img/nosotros-about.png" alt={title} fill sizes="(max-width: 1024px) 90vw, 492px" className="object-cover" />
         </Reveal>
       </div>
     </section>

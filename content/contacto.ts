@@ -6,8 +6,9 @@ export const contactHeroContent = {
     "Contactanos para coordinar una asesoría, solicitar un presupuesto o resolver tus dudas sobre normativas.",
   cards: [
     { icon: "email" as const, label: "info@inoqua.com.uy", href: "mailto:info@inoqua.com.uy" },
-    { icon: "phone" as const, label: "+598 99 286 804", href: "tel:+59899286804" },
-    { icon: "social" as const, label: "Redes sociales", href: "https://www.instagram.com/inoqua.consultora/" },
+    { icon: "whatsapp" as const, label: "+598 99 286 804", href: "https://wa.me/59899286804" },
+    { icon: "instagram" as const, label: "@inoqua.consultora", href: "https://www.instagram.com/inoqua.consultora/" },
+    { icon: "linkedin" as const, label: "inoqua-uy", href: "https://www.linkedin.com/company/inoqua-uy" },
   ],
 };
 

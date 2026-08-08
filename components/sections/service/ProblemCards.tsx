@@ -19,7 +19,7 @@ export default function ProblemCards({
   title,
   subtitle,
   cards,
-  titleMaxWidthClassName = "max-w-xl",
+  titleMaxWidthClassName = "max-w-[40rem]",
 }: ProblemCardsProps) {
   const isSixCards = cards.length === 6;
   const gridColsClass =
